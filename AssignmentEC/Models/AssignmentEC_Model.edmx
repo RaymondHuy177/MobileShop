@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="assignment1Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Cart">
+          <Key>
+            <PropertyRef Name="CartID" />
+          </Key>
+          <Property Name="CartID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CustomerID" Type="int" />
+          <Property Name="Quantity" Type="int" />
+          <Property Name="TotalPrice" Type="int" />
+          <Property Name="CreatedDate" Type="date" />
+          <Property Name="DateTranfer" Type="date" />
+          <Property Name="Status" Type="nvarchar" MaxLength="70" />
+          <Property Name="TypePayment" Type="nvarchar" MaxLength="30" />
+          <Property Name="IsMobileTranfer" Type="bit" />
+          <Property Name="IsPaid" Type="bit" />
+        </EntityType>
+        <EntityType Name="CartItem">
+          <Key>
+            <PropertyRef Name="CartItemID" />
+          </Key>
+          <Property Name="CartItemID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CartID" Type="int" />
+          <Property Name="MobileID" Type="int" />
+          <Property Name="Color" Type="nvarchar" MaxLength="30" />
+        </EntityType>
+        <EntityType Name="Category">
+          <Key>
+            <PropertyRef Name="CategoryID" />
+          </Key>
+          <Property Name="CategoryID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CategoryName" Type="nvarchar" MaxLength="30" />
+        </EntityType>
+        <EntityType Name="MobilePhone">
+          <Key>
+            <PropertyRef Name="MobileID" />
+          </Key>
+          <Property Name="MobileID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="MobileName" Type="nvarchar" MaxLength="50" />
+          <Property Name="MobileOS" Type="nvarchar" MaxLength="15" />
+          <Property Name="Picture" Type="nvarchar" MaxLength="50" />
+          <Property Name="Video" Type="nvarchar" MaxLength="50" />
+          <Property Name="Price" Type="int" />
+          <Property Name="SaleOff" Type="int" />
+          <Property Name="Description" Type="nvarchar(max)" />
+          <Property Name="CategoryID" Type="int" />
+          <Property Name="Quantity" Type="int" />
+          <Property Name="Screen" Type="nvarchar" MaxLength="20" />
+          <Property Name="Camera" Type="nvarchar" MaxLength="20" />
+          <Property Name="RAM" Type="int" />
+          <Property Name="Resolution" Type="nvarchar" MaxLength="50" />
+          <Property Name="CPU" Type="nvarchar" MaxLength="50" />
+          <Property Name="MainCamera" Type="nvarchar" MaxLength="50" />
+          <Property Name="Size" Type="int" />
+          <Property Name="PictureGreen" Type="nvarchar" MaxLength="80" />
+          <Property Name="PictureOrange" Type="nvarchar" MaxLength="80" />
+          <Property Name="PictureBlack" Type="nvarchar" MaxLength="80" />
+          <Property Name="PictureRed" Type="nvarchar" MaxLength="80" />
+          <Property Name="PictureBlue" Type="nvarchar" MaxLength="80" />
+          <Property Name="CustomerBought" Type="int" />
+          <Property Name="TimeInsurance" Type="nvarchar" MaxLength="15" />
+          <Property Name="CustomerLike" Type="int" />
+          <Property Name="NewMobile" Type="bit" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="UserID" />
+          </Key>
+          <Property Name="UserID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UserAccount" Type="char" MaxLength="20" />
+          <Property Name="Avatar" Type="char" MaxLength="42" />
+          <Property Name="FirstName" Type="nvarchar" MaxLength="30" />
+          <Property Name="LastName" Type="nvarchar" MaxLength="10" />
+          <Property Name="LastLogin" Type="datetime" />
+          <Property Name="Password" Type="nvarchar" MaxLength="50" />
+          <Property Name="Email" Type="char" MaxLength="50" />
+          <Property Name="Phone" Type="varchar" MaxLength="12" />
+          <Property Name="Address" Type="nvarchar(max)" />
+          <Property Name="LastModified" Type="datetime" />
+        </EntityType>
+        <EntityContainer Name="assignment1ModelStoreContainer">
+          <EntitySet Name="Cart" EntityType="Self.Cart" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CartItem" EntityType="Self.CartItem" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Category" EntityType="Self.Category" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="MobilePhone" EntityType="Self.MobilePhone" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="assignment1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Cart">
+          <Key>
+            <PropertyRef Name="CartID" />
+          </Key>
+          <Property Name="CartID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CustomerID" Type="Int32" />
+          <Property Name="Quantity" Type="Int32" />
+          <Property Name="TotalPrice" Type="Int32" />
+          <Property Name="CreatedDate" Type="DateTime" Precision="0" />
+          <Property Name="DateTranfer" Type="DateTime" Precision="0" />
+          <Property Name="Status" Type="String" MaxLength="70" FixedLength="false" Unicode="true" />
+          <Property Name="TypePayment" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Name="IsMobileTranfer" Type="Boolean" />
+          <Property Name="IsPaid" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="CartItem">
+          <Key>
+            <PropertyRef Name="CartItemID" />
+          </Key>
+          <Property Name="CartItemID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CartID" Type="Int32" />
+          <Property Name="MobileID" Type="Int32" />
+          <Property Name="Color" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Category">
+          <Key>
+            <PropertyRef Name="CategoryID" />
+          </Key>
+          <Property Name="CategoryID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CategoryName" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="MobilePhone">
+          <Key>
+            <PropertyRef Name="MobileID" />
+          </Key>
+          <Property Name="MobileID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="MobileName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="MobileOS" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="Picture" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Video" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Price" Type="Int32" />
+          <Property Name="SaleOff" Type="Int32" />
+          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="CategoryID" Type="Int32" />
+          <Property Name="Quantity" Type="Int32" />
+          <Property Name="Screen" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Camera" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="RAM" Type="Int32" />
+          <Property Name="Resolution" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="CPU" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="MainCamera" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Size" Type="Int32" />
+          <Property Name="PictureGreen" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="PictureOrange" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="PictureBlack" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="PictureRed" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="PictureBlue" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="CustomerBought" Type="Int32" />
+          <Property Name="TimeInsurance" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="CustomerLike" Type="Int32" />
+          <Property Name="NewMobile" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="UserID" />
+          </Key>
+          <Property Name="UserID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserAccount" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+          <Property Name="Avatar" Type="String" MaxLength="42" FixedLength="true" Unicode="false" />
+          <Property Name="FirstName" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Name="LastName" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="LastLogin" Type="DateTime" Precision="3" />
+          <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+          <Property Name="Phone" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+          <Property Name="Address" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="LastModified" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityContainer Name="assignment1Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Carts" EntityType="Self.Cart" />
+          <EntitySet Name="CartItems" EntityType="Self.CartItem" />
+          <EntitySet Name="Categories" EntityType="Self.Category" />
+          <EntitySet Name="MobilePhones" EntityType="Self.MobilePhone" />
+          <EntitySet Name="Users" EntityType="Self.User" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="assignment1ModelStoreContainer" CdmEntityContainer="assignment1Entities">
+          <EntitySetMapping Name="Carts">
+            <EntityTypeMapping TypeName="assignment1Model.Cart">
+              <MappingFragment StoreEntitySet="Cart">
+                <ScalarProperty Name="CartID" ColumnName="CartID" />
+                <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+                <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+                <ScalarProperty Name="TotalPrice" ColumnName="TotalPrice" />
+                <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+                <ScalarProperty Name="DateTranfer" ColumnName="DateTranfer" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="TypePayment" ColumnName="TypePayment" />
+                <ScalarProperty Name="IsMobileTranfer" ColumnName="IsMobileTranfer" />
+                <ScalarProperty Name="IsPaid" ColumnName="IsPaid" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CartItems">
+            <EntityTypeMapping TypeName="assignment1Model.CartItem">
+              <MappingFragment StoreEntitySet="CartItem">
+                <ScalarProperty Name="CartItemID" ColumnName="CartItemID" />
+                <ScalarProperty Name="CartID" ColumnName="CartID" />
+                <ScalarProperty Name="MobileID" ColumnName="MobileID" />
+                <ScalarProperty Name="Color" ColumnName="Color" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Categories">
+            <EntityTypeMapping TypeName="assignment1Model.Category">
+              <MappingFragment StoreEntitySet="Category">
+                <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+                <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MobilePhones">
+            <EntityTypeMapping TypeName="assignment1Model.MobilePhone">
+              <MappingFragment StoreEntitySet="MobilePhone">
+                <ScalarProperty Name="MobileID" ColumnName="MobileID" />
+                <ScalarProperty Name="MobileName" ColumnName="MobileName" />
+                <ScalarProperty Name="MobileOS" ColumnName="MobileOS" />
+                <ScalarProperty Name="Picture" ColumnName="Picture" />
+                <ScalarProperty Name="Video" ColumnName="Video" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="SaleOff" ColumnName="SaleOff" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+                <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+                <ScalarProperty Name="Screen" ColumnName="Screen" />
+                <ScalarProperty Name="Camera" ColumnName="Camera" />
+                <ScalarProperty Name="RAM" ColumnName="RAM" />
+                <ScalarProperty Name="Resolution" ColumnName="Resolution" />
+                <ScalarProperty Name="CPU" ColumnName="CPU" />
+                <ScalarProperty Name="MainCamera" ColumnName="MainCamera" />
+                <ScalarProperty Name="Size" ColumnName="Size" />
+                <ScalarProperty Name="PictureGreen" ColumnName="PictureGreen" />
+                <ScalarProperty Name="PictureOrange" ColumnName="PictureOrange" />
+                <ScalarProperty Name="PictureBlack" ColumnName="PictureBlack" />
+                <ScalarProperty Name="PictureRed" ColumnName="PictureRed" />
+                <ScalarProperty Name="PictureBlue" ColumnName="PictureBlue" />
+                <ScalarProperty Name="CustomerBought" ColumnName="CustomerBought" />
+                <ScalarProperty Name="TimeInsurance" ColumnName="TimeInsurance" />
+                <ScalarProperty Name="CustomerLike" ColumnName="CustomerLike" />
+                <ScalarProperty Name="NewMobile" ColumnName="NewMobile" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Users">
+            <EntityTypeMapping TypeName="assignment1Model.User">
+              <MappingFragment StoreEntitySet="User">
+                <ScalarProperty Name="UserID" ColumnName="UserID" />
+                <ScalarProperty Name="UserAccount" ColumnName="UserAccount" />
+                <ScalarProperty Name="Avatar" ColumnName="Avatar" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="LastLogin" ColumnName="LastLogin" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Phone" ColumnName="Phone" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="LastModified" ColumnName="LastModified" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

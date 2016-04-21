@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="assignment1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Cart">
+    <Key>
+      <PropertyRef Name="CartID" />
+    </Key>
+    <Property Name="CartID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerID" Type="Int32" />
+    <Property Name="Quantity" Type="Int32" />
+    <Property Name="TotalPrice" Type="Int32" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="0" />
+    <Property Name="DateTranfer" Type="DateTime" Precision="0" />
+    <Property Name="Status" Type="String" MaxLength="70" FixedLength="false" Unicode="true" />
+    <Property Name="TypePayment" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="IsMobileTranfer" Type="Boolean" />
+    <Property Name="IsPaid" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="CartItem">
+    <Key>
+      <PropertyRef Name="CartItemID" />
+    </Key>
+    <Property Name="CartItemID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CartID" Type="Int32" />
+    <Property Name="MobileID" Type="Int32" />
+    <Property Name="Color" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="CategoryID" />
+    </Key>
+    <Property Name="CategoryID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CategoryName" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="MobilePhone">
+    <Key>
+      <PropertyRef Name="MobileID" />
+    </Key>
+    <Property Name="MobileID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MobileName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MobileOS" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="Picture" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Video" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Int32" />
+    <Property Name="SaleOff" Type="Int32" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CategoryID" Type="Int32" />
+    <Property Name="Quantity" Type="Int32" />
+    <Property Name="Screen" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Camera" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="RAM" Type="Int32" />
+    <Property Name="Resolution" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CPU" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MainCamera" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Size" Type="Int32" />
+    <Property Name="PictureGreen" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+    <Property Name="PictureOrange" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+    <Property Name="PictureBlack" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+    <Property Name="PictureRed" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+    <Property Name="PictureBlue" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+    <Property Name="CustomerBought" Type="Int32" />
+    <Property Name="TimeInsurance" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="CustomerLike" Type="Int32" />
+    <Property Name="NewMobile" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserAccount" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="Avatar" Type="String" MaxLength="42" FixedLength="true" Unicode="false" />
+    <Property Name="FirstName" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="LastName" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="LastLogin" Type="DateTime" Precision="3" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+    <Property Name="Phone" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="Address" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="LastModified" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityContainer Name="assignment1Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Carts" EntityType="Self.Cart" />
+    <EntitySet Name="CartItems" EntityType="Self.CartItem" />
+    <EntitySet Name="Categories" EntityType="Self.Category" />
+    <EntitySet Name="MobilePhones" EntityType="Self.MobilePhone" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+  </EntityContainer>
+</Schema>

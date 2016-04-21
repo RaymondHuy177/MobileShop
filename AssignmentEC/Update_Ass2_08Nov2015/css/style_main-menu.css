@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'menulis'; /*a name to be used later*/
+    src: url('../font/menulis.ttf'); /*URL to font*/
+}
+
+.main-menu{
+	position:relative;  
+	top: 10em;
+	width: 75%;
+	float: right;
+	font-family: "menulis"; 
+    font-size: 1.1em;  
+}
+
+.main-menu ul{
+	list-style-type: none; 
+}
+.main-menu ul li{
+	padding-top: 0.5em;
+	display: inline-block; 
+	list-style: none;
+	width: 10em;
+	height: 2em; 
+	text-align: center;
+} 
+.main-menu ul li a{ 
+	color: white;
+	font-size: 1.2em;
+	text-decoration: none; 
+	text-transform: uppercase;
+}
+.main-menu li a:hover {
+	padding: 0.3em 1.3em 0.3em 1.3em;
+  	border: 1px solid white; 
+  	border-radius: 1.5em; 
+  	color: yellow;
+} 

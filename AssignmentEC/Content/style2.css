@@ -1,0 +1,54 @@
+﻿.producer .nav-pills > li > a {
+    border-radius: 0;
+    outline: none;
+    color: black;
+    font-family: Tahoma;
+}
+
+.producer .nav-pills > li.active > a, .producer .nav-pills > li.active > a:focus, .producer .nav-pills > li.active > a:hover {
+    color: #FFF;
+    background-color: red;
+    font-weight: bold;
+}
+
+.filter .navbar-default .navbar-nav > li > a {
+    color: black;
+}
+
+.gallery > .row {
+    margin: 0;
+}
+
+    .gallery > .row > .col-md-3 {
+        padding-left: 0;
+        padding-right: 5%;
+        margin-bottom: 2%;
+    }
+
+.item {
+    height: 36vh;
+    border-radius: 2%;
+    padding: 5%;
+}
+
+.item-shape, .item-info {
+    height: 100%;
+}
+
+.item h5 {
+    font-family: Arial;
+    margin-top: 2%;
+    margin-bottom: 0;
+}
+
+.item-info > div {
+    font-family: Arial;
+    font-size: 85%;
+    line-height: 200%;
+}
+
+.item-shape {
+    padding-right: 10%;
+    padding-left: 10%;
+    text-align: center;
+}

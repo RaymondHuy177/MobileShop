@@ -1,0 +1,317 @@
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\AssignmentEC.dll.config
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\AssignmentEC.dll
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\AssignmentEC.pdb
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\Antlr3.Runtime.dll
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\AspNet.ScriptManager.jQuery.dll
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\EntityFramework.dll
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\EntityFramework.SqlServer.dll
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.dll
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.dll
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.Google.dll
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\Microsoft.Web.Infrastructure.dll
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\Newtonsoft.Json.dll
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\Owin.dll
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\System.Web.Optimization.dll
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\System.Web.Providers.dll
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\WebGrease.dll
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\System.Web.Optimization.xml
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\Antlr3.Runtime.pdb
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\Newtonsoft.Json.xml
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\EntityFramework.xml
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\EntityFramework.SqlServer.xml
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.xml
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.xml
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.Google.xml
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\obj\Debug\AssignmentEC.csprojResolveAssemblyReference.cache
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\obj\Debug\AssignmentEC.dll
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\obj\Debug\AssignmentEC.pdb
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\CKEditor.NET.dll
+D:\Khoa học máy tính\project C#\AssignmentEC\AssignmentEC\bin\CKEditor.NET.pdb
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\AssignmentEC.dll.config
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\AssignmentEC.dll
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\AssignmentEC.pdb
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\Antlr3.Runtime.dll
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\EntityFramework.dll
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\EntityFramework.SqlServer.dll
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.dll
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.dll
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\Newtonsoft.Json.dll
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\Owin.dll
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\System.Web.Optimization.dll
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\System.Web.Providers.dll
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\WebGrease.dll
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\System.Web.Optimization.xml
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\Antlr3.Runtime.pdb
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\Newtonsoft.Json.xml
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\EntityFramework.xml
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\EntityFramework.SqlServer.xml
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.xml
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.xml
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\obj\Debug\AssignmentEC.dll
+C:\Users\Sandy\Desktop\Archives\AssignmentEC\AssignmentEC\obj\Debug\AssignmentEC.pdb
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\AssignmentEC.dll.config
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\AssignmentEC.dll
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\AssignmentEC.pdb
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\Antlr3.Runtime.dll
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\AspNet.ScriptManager.jQuery.dll
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\CKEditor.NET.dll
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\EntityFramework.dll
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\EntityFramework.SqlServer.dll
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.dll
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.dll
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.Google.dll
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\Microsoft.Web.Infrastructure.dll
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\Newtonsoft.Json.dll
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\Owin.dll
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\System.Web.Optimization.dll
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\System.Web.Providers.dll
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\WebGrease.dll
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\CKEditor.NET.pdb
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\System.Web.Optimization.xml
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\Antlr3.Runtime.pdb
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\Newtonsoft.Json.xml
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\EntityFramework.xml
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\EntityFramework.SqlServer.xml
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.xml
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.xml
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.Google.xml
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\obj\Debug\AssignmentEC.csprojResolveAssemblyReference.cache
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\obj\Debug\AssignmentEC.dll
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\obj\Debug\AssignmentEC.pdb
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\PayPal.dll
+D:\Khoa học máy tính\E-Commerce\AssignmentEC\AssignmentEC\bin\PayPal.xml
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\AssignmentEC.dll.config
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\AssignmentEC.dll
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\AssignmentEC.pdb
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\Antlr3.Runtime.dll
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\EntityFramework.dll
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\EntityFramework.SqlServer.dll
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\Microsoft.Owin.dll
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\Microsoft.Owin.Security.dll
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\Newtonsoft.Json.dll
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\Owin.dll
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\PayPal.dll
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\System.Web.Optimization.dll
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\System.Web.Providers.dll
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\WebGrease.dll
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\Newtonsoft.Json.xml
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\PayPal.xml
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\System.Web.Optimization.xml
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\Antlr3.Runtime.pdb
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\EntityFramework.xml
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\EntityFramework.SqlServer.xml
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\Microsoft.Owin.xml
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\Microsoft.Owin.Security.xml
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\obj\Debug\AssignmentEC.dll
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\obj\Debug\AssignmentEC.pdb
+C:\Users\Sandy\Desktop\AssignmentEC-Merged-15-11\AssignmentEC\obj\Debug\AssignmentEC.csprojResolveAssemblyReference.cache
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\AssignmentEC.dll.config
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\AssignmentEC.dll
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\AssignmentEC.pdb
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\Antlr3.Runtime.dll
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\EntityFramework.dll
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\EntityFramework.SqlServer.dll
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\Microsoft.Owin.dll
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\Microsoft.Owin.Security.dll
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\Newtonsoft.Json.dll
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\Owin.dll
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\PayPal.dll
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\System.Web.Optimization.dll
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\System.Web.Providers.dll
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\WebGrease.dll
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\Newtonsoft.Json.xml
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\PayPal.xml
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\System.Web.Optimization.xml
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\Antlr3.Runtime.pdb
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\EntityFramework.xml
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\EntityFramework.SqlServer.xml
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\Microsoft.Owin.xml
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\Microsoft.Owin.Security.xml
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\obj\Debug\AssignmentEC.csprojResolveAssemblyReference.cache
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\obj\Debug\AssignmentEC.dll
+C:\Users\Sandy\Desktop\Assignment 2\AssignmentEC\obj\Debug\AssignmentEC.pdb
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\AssignmentEC.dll.config
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\AssignmentEC.dll
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\AssignmentEC.pdb
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\Antlr3.Runtime.dll
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\AspNet.ScriptManager.jQuery.dll
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\EntityFramework.dll
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\EntityFramework.SqlServer.dll
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\Microsoft.Owin.dll
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\Microsoft.Owin.Security.dll
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\Microsoft.Owin.Security.Google.dll
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\Microsoft.Web.Infrastructure.dll
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\Newtonsoft.Json.dll
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\Owin.dll
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\PayPal.dll
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\System.Web.Optimization.dll
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\System.Web.Providers.dll
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\WebGrease.dll
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\Newtonsoft.Json.xml
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\PayPal.xml
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\System.Web.Optimization.xml
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\Antlr3.Runtime.pdb
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\EntityFramework.xml
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\EntityFramework.SqlServer.xml
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\Microsoft.Owin.xml
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\Microsoft.Owin.Security.xml
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\Microsoft.Owin.Security.Google.xml
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\obj\Debug\AssignmentEC.csprojResolveAssemblyReference.cache
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\obj\Debug\AssignmentEC.dll
+D:\Khoa học máy tính\project C#\Data_Assignment2_MT12KHTN\Assignment 2\AssignmentEC\obj\Debug\AssignmentEC.pdb

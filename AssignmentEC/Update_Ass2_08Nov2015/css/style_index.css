@@ -1,0 +1,52 @@
+.tittle_page{
+	position: fixed;
+	margin-top: 0.3em;
+	margin-left: 1.5em;
+	color: white;
+	font-family: "menulis"; 
+    font-size: 2.5em; 
+    z-index: 200;
+    font-weight: bold; 
+}
+
+.content_index{
+	position: absolute; 
+	width: 100%;
+	min-height: 40em;
+	background: url('../images/bg.png') repeat center center;
+}
+
+.col-md-2{ 	
+    font-family: "Century Gothic";
+}
+.dropdown-menu{
+	width: 12.6em;
+}
+
+span{
+	font-weight: bold;
+}
+
+.row{
+	top: -1em;
+}
+
+.footer {
+	position: absolute;
+	top: 58em;
+	color: #666;
+	width: 100%;
+    background: #222;
+    padding: 1em 0 1em 0;
+    border-top: 1px solid #000;  
+    font-family: "Century Gothic";
+} 
+.footer img{
+	margin-left: 1em;
+}
+.footer p{
+	margin-left: 1em;
+}
+.container-fluid{
+	padding: 5em 3em 3em 3em;
+}

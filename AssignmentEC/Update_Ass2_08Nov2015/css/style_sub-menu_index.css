@@ -1,0 +1,89 @@
+.sub-menu{
+    position:relative;  
+	font-family: "Century Gothic";
+	margin-right: 4em;
+	margin-top: 0.7em;
+    font-size: 16px;   
+}
+.items{
+    position:relative;
+    background-color:#f0f0f0; 
+    float:right;
+    width:52px;
+    margin:0em 0.3em;
+    height:52px;
+    border:2px solid #ddd;
+    -moz-border-radius:30px;
+    -webkit-border-radius:30px;
+    border-radius:30px;
+    -moz-box-shadow:1px 1px 3px #555;
+    -webkit-box-shadow:1px 1px 3px #555;
+    box-shadow:1px 1px 3px #555;
+    cursor:pointer;
+    overflow:hidden;
+}
+.links{
+    position:absolute;
+    width:48px;
+    height:48px;
+}
+.icons_home{
+    background:transparent url(../images/home.png) no-repeat top left;
+}
+.icons_mail{
+    background:transparent url(../images/mail.png) no-repeat top left;
+}
+.icons_help{
+    background:transparent url(../images/help.png) no-repeat top left;
+}
+.icons_find{
+    background:transparent url(../images/find.png) no-repeat top left;
+} 
+.icons_buy{
+    background:transparent url(../images/buy.png) no-repeat top left;
+}
+.item_contents{
+    position:absolute;
+    height:5em;
+    width:220px;
+    overflow:hidden;
+    left:56px;
+    top:-0.8em;
+    background:transparent;
+    display:none;
+}
+.item_contents h2{
+    color:#aaa;
+    text-shadow: 1px 1px 1px #fff;
+    /*background-color:transparent;*/
+    font-size:14px;
+    font-weight: bold;
+}
+.item_contents a{
+    background-color:transparent;
+    float:left;
+    margin-right:7px;
+    margin-top:-0.6em;
+    color:#bbb;
+    text-shadow: 1px 1px 1px #fff;
+    text-decoration:none;
+    font-size:12px;
+}
+.item_contents a:hover{
+    color:#0b965b;
+}
+.item_contents p {
+    background-color:transparent;
+    display:none;
+}
+.item_contents p input{
+    position: relative;
+    border:1px solid #ccc;
+    border-radius: 1em;
+    height: 1.5em;
+    top: -0.6em;
+    width:9em;
+    float:left;
+    margin-right:5px;
+    font-family: "Century Gothic";
+}

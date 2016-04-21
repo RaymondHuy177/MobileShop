@@ -1,0 +1,577 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AC3A023C-A500-48A3-AE69-0B94748AE8E0}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AssignmentEC</RootNamespace>
+    <AssemblyName>AssignmentEC</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CKEditor.NET">
+      <HintPath>..\..\..\..\New folder (2)\bin\Debug\CKEditor.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PayPal">
+      <HintPath>..\packages\PayPal.1.7.0\lib\net451\PayPal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.bootstrap">
+      <HintPath>..\packages\AspNet.ScriptManager.bootstrap.3.0.0\lib\net45\AspNet.ScriptManager.bootstrap.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.jQuery">
+      <HintPath>..\packages\AspNet.ScriptManager.jQuery.1.10.2\lib\net45\AspNet.ScriptManager.jQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.MSAjax">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.MSAjax.5.0.0\lib\net45\Microsoft.ScriptManager.MSAjax.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.WebForms">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.WebForms.5.0.0\lib\net45\Microsoft.ScriptManager.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Web.Optimization.WebForms">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.WebForms.1.1.3\lib\net45\Microsoft.AspNet.Web.Optimization.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.FriendlyUrls">
+      <HintPath>..\packages\Microsoft.AspNet.FriendlyUrls.Core.1.0.2\lib\net45\Microsoft.AspNet.FriendlyUrls.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.0.0\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.0.0\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.0.0\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Providers">
+      <HintPath>..\packages\Microsoft.AspNet.Providers.Core.1.2\lib\net40\System.Web.Providers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\packages\Microsoft.Owin.2.1.0\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.2.1.0\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security">
+      <HintPath>..\packages\Microsoft.Owin.Security.2.1.0\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Facebook">
+      <HintPath>..\packages\Microsoft.Owin.Security.Facebook.2.1.0\lib\net45\Microsoft.Owin.Security.Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.2.1.0\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Google">
+      <HintPath>..\packages\Microsoft.Owin.Security.Google.2.1.0\lib\net45\Microsoft.Owin.Security.Google.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Twitter">
+      <HintPath>..\packages\Microsoft.Owin.Security.Twitter.2.1.0\lib\net45\Microsoft.Owin.Security.Twitter.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.MicrosoftAccount">
+      <HintPath>..\packages\Microsoft.Owin.Security.MicrosoftAccount.2.1.0\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.2.1.0\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CartHistory.aspx" />
+    <Content Include="css\gridviewStyle.css" />
+    <Content Include="css\style_banner.css" />
+    <Content Include="css\style_content.css" />
+    <Content Include="css\style_content_index.css" />
+    <Content Include="css\style_index.css" />
+    <Content Include="css\style_main-menu.css" />
+    <Content Include="css\style_new.css" />
+    <Content Include="css\style_page.css" />
+    <Content Include="css\style_sub-menu.css" />
+    <Content Include="css\style_sub-menu_index.css" />
+    <Content Include="CustomerInformation.aspx" />
+    <Content Include="DetailProduct.aspx" />
+    <Content Include="Detail\DetailProduct.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="images\AllPhone\a536-black.png" />
+    <Content Include="images\AllPhone\a536-white.png" />
+    <Content Include="images\AllPhone\a910-black.png" />
+    <Content Include="images\AllPhone\a910-white.png" />
+    <Content Include="images\AllPhone\blackberry-p9983.png" />
+    <Content Include="images\AllPhone\blackberry-passport-black.png" />
+    <Content Include="images\AllPhone\blackberry-passport-red.png" />
+    <Content Include="images\AllPhone\blackberry-passport-white.png" />
+    <Content Include="images\AllPhone\blackberry-q10-black.png" />
+    <Content Include="images\AllPhone\blackberry-q10-white.png" />
+    <Content Include="images\AllPhone\blackberry-z30.png" />
+    <Content Include="images\AllPhone\iphone-5-black.png" />
+    <Content Include="images\AllPhone\iphone-5-white.png" />
+    <Content Include="images\AllPhone\iphone-5c-blue.png" />
+    <Content Include="images\AllPhone\iphone-5c-green.png" />
+    <Content Include="images\AllPhone\iphone-5c-pink.png" />
+    <Content Include="images\AllPhone\iphone-5c-white.png" />
+    <Content Include="images\AllPhone\iphone-5c-yellow.png" />
+    <Content Include="images\AllPhone\iphone-6-gold.png" />
+    <Content Include="images\AllPhone\iphone-6-gray.png" />
+    <Content Include="images\AllPhone\iphone-6-plus-gold.png" />
+    <Content Include="images\AllPhone\iphone-6-plus-grey.png" />
+    <Content Include="images\AllPhone\iphone-6-plus-white.png" />
+    <Content Include="images\AllPhone\iphone-6-silver.png" />
+    <Content Include="images\AllPhone\lenovo-a516-black.png" />
+    <Content Include="images\AllPhone\lenovo-a516-pink.png" />
+    <Content Include="images\AllPhone\lenovo-a516-white.png" />
+    <Content Include="images\AllPhone\lenovo-p70-black.png" />
+    <Content Include="images\AllPhone\lenovo-s60-gray.png" />
+    <Content Include="images\AllPhone\lenovo-s60-white.png" />
+    <Content Include="images\AllPhone\lenovo-s60-yellow.png" />
+    <Content Include="images\AllPhone\microsoft-lumia-430-dual-sim-black-back.png" />
+    <Content Include="images\AllPhone\microsoft-lumia-430-dual-sim-black.png" />
+    <Content Include="images\AllPhone\microsoft-lumia-430-dual-sim-orange.png" />
+    <Content Include="images\AllPhone\microsoft-lumia-435-dual-sim-green.png" />
+    <Content Include="images\AllPhone\microsoft-lumia-435-dual-sim-orange.png" />
+    <Content Include="images\AllPhone\microsoft-lumia-435-dual-sim-white-back.png" />
+    <Content Include="images\AllPhone\microsoft-lumia-640-xl-dual-sim-black.png" />
+    <Content Include="images\AllPhone\microsoft-lumia-640-xl-dual-sim-blue.png" />
+    <Content Include="images\AllPhone\microsoft-lumia-640-xl-dual-sim-orange.png" />
+    <Content Include="images\AllPhone\microsoft-lumia-730-dual-sim-black.png" />
+    <Content Include="images\AllPhone\microsoft-lumia-730-dual-sim-green.png" />
+    <Content Include="images\AllPhone\microsoft-lumia-730-dual-sim-orange.png" />
+    <Content Include="images\AllPhone\oppo-joy-3-white.png" />
+    <Content Include="images\AllPhone\oppo-joy-plus-blue.png" />
+    <Content Include="images\AllPhone\oppo-joy-plus-white.png" />
+    <Content Include="images\AllPhone\oppo-neo-5-black.png" />
+    <Content Include="images\AllPhone\oppo-neo-5-white.png" />
+    <Content Include="images\AllPhone\oppo-r1k-black.png" />
+    <Content Include="images\AllPhone\oppo-r1k-white.png" />
+    <Content Include="images\AllPhone\samsung-galaxy-a3-black.png" />
+    <Content Include="images\AllPhone\samsung-galaxy-a3-blue.png" />
+    <Content Include="images\AllPhone\samsung-galaxy-a3-pink.png" />
+    <Content Include="images\AllPhone\samsung-galaxy-a3-white.png" />
+    <Content Include="images\AllPhone\samsung-galaxy-a5-black.png" />
+    <Content Include="images\AllPhone\samsung-galaxy-a5-blue.png" />
+    <Content Include="images\AllPhone\samsung-galaxy-a5-pink.png" />
+    <Content Include="images\AllPhone\samsung-galaxy-a5-white.png" />
+    <Content Include="images\AllPhone\samsung-galaxy-a7-black.png" />
+    <Content Include="images\AllPhone\samsung-galaxy-a7-gold.png" />
+    <Content Include="images\AllPhone\samsung-galaxy-a7-white.png" />
+    <Content Include="images\AllPhone\samsung-galaxy-grand-prime-black.png" />
+    <Content Include="images\AllPhone\samsung-galaxy-grand-prime-gold.png" />
+    <Content Include="images\AllPhone\samsung-galaxy-grand-prime-white.png" />
+    <Content Include="images\AllPhone\sky-vega-a900-black.png" />
+    <Content Include="images\AllPhone\sky-vega-a900-white.png" />
+    <Content Include="images\AllPhone\sony-xperia-c3-dual-black.png" />
+    <Content Include="images\AllPhone\sony-xperia-c3-dual-green.png" />
+    <Content Include="images\AllPhone\sony-xperia-c3-dual-white-back.png" />
+    <Content Include="images\AllPhone\sony-xperia-c3-dual-white.png" />
+    <Content Include="images\AllPhone\sony-xperia-e4-dual-black.png" />
+    <Content Include="images\AllPhone\sony-xperia-m4-aqua-dual-black.png" />
+    <Content Include="images\AllPhone\sony-xperia-m4-aqua-dual-red.png" />
+    <Content Include="images\AllPhone\sony-xperia-m4-aqua-dual-white.png" />
+    <Content Include="images\AllPhone\sony-xperia-z3-black.png" />
+    <Content Include="images\AllPhone\sony-xperia-z3-bronze.png" />
+    <Content Include="images\AllPhone\sony-xperia-z3-white.png" />
+    <Content Include="images\arrows.png" />
+    <Content Include="images\background.png" />
+    <Content Include="images\bg.png" />
+    <Content Include="images\buy.png" />
+    <Content Include="images\fb.png" />
+    <Content Include="images\find.png" />
+    <Content Include="images\gg.png" />
+    <Content Include="images\help.png" />
+    <Content Include="images\home.png" />
+    <Content Include="images\imageLanh\bg.png" />
+    <Content Include="images\imageLanh\btnnext.png" />
+    <Content Include="images\imageLanh\fb.png" />
+    <Content Include="images\imageLanh\gg.png" />
+    <Content Include="images\imageLanh\ip6.png" />
+    <Content Include="images\imageLanh\iPhone_6.png" />
+    <Content Include="images\imageLanh\logo.png" />
+    <Content Include="images\imageLanh\search.png" />
+    <Content Include="images\imageLanh\shopping.png" />
+    <Content Include="images\imageLanh\tw.png" />
+    <Content Include="Content\css\style.css" />
+    <Content Include="Content\css\style2.css" />
+    <Content Include="Content\css\style_common.css" />
+    <Content Include="Content\style.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="images\iphone6.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\lumia.png" />
+    <Content Include="images\lumia_950.png" />
+    <Content Include="images\mail.png" />
+    <Content Include="images\photos.png" />
+    <Content Include="images\samsung_galaxy_s6_5.png" />
+    <Content Include="images\tw.png" />
+    <Content Include="images\zenfone.png" />
+    <Content Include="js\jquery-1.7.1.min.js" />
+    <Content Include="js\jquery.cslider.js" />
+    <Content Include="js\modernizr.custom.28468.js" />
+    <Content Include="packages.config" />
+    <Content Include="Product.aspx" />
+    <Content Include="Detail\css\easy-responsive-tabs.css" />
+    <Content Include="Detail\css\etalage.css" />
+    <Content Include="Detail\css\style.css" />
+    <Content Include="Detail\images\arrows.png" />
+    <Content Include="Detail\images\arrow_up.png" />
+    <Content Include="Detail\images\banner-bg.png" />
+    <Content Include="Detail\images\bg.png" />
+    <Content Include="Detail\images\btnnext.png" />
+    <Content Include="Detail\images\compare.png" />
+    <Content Include="Detail\images\computer.png" />
+    <Content Include="Detail\images\drop_arrow.png" />
+    <Content Include="Detail\images\fb.png" />
+    <Content Include="Detail\images\gg.png" />
+    <Content Include="Detail\images\ip6.png" />
+    <Content Include="Detail\images\left-fold.png" />
+    <Content Include="Detail\images\line-divider.png" />
+    <Content Include="Detail\images\logo.png" />
+    <Content Include="Detail\images\nav-arrow.png" />
+    <Content Include="Detail\images\nav-icon.png" />
+    <Content Include="Detail\images\price-rating.png" />
+    <Content Include="Detail\images\right-fold.png" />
+    <Content Include="Detail\images\search.png" />
+    <Content Include="Detail\images\slider-img.png" />
+    <Content Include="Detail\images\social-share.png" />
+    <Content Include="Detail\images\tag.png" />
+    <Content Include="Detail\images\wishlist.png" />
+    <Content Include="Detail\images\zoom.png" />
+    <Content Include="Detail\js\easing.js" />
+    <Content Include="Detail\js\easyResponsiveTabs.js" />
+    <Content Include="Detail\js\jquery-1.9.0.min.js" />
+    <Content Include="Detail\js\jquery.etalage.min.js" />
+    <Content Include="Detail\js\jquery.openCarousel.js" />
+    <Content Include="Detail\js\jquery_and_jqueryui.js" />
+    <Content Include="Detail\js\move-top.js" />
+    <Content Include="Detail\js\navigation.js" />
+    <Content Include="Detail\js\star-rating.js" />
+    <Content Include="Register.aspx" />
+    <Content Include="Shopping.aspx" />
+    <Content Include="ThankYou.aspx" />
+    <Content Include="Update_Ass2_08Nov2015\css\style_banner.css" />
+    <Content Include="Update_Ass2_08Nov2015\css\style_content.css" />
+    <Content Include="Update_Ass2_08Nov2015\css\style_content_index.css" />
+    <Content Include="Update_Ass2_08Nov2015\css\style_index.css" />
+    <Content Include="Update_Ass2_08Nov2015\css\style_main-menu.css" />
+    <Content Include="Update_Ass2_08Nov2015\css\style_new.css" />
+    <Content Include="Update_Ass2_08Nov2015\css\style_page.css" />
+    <Content Include="Update_Ass2_08Nov2015\css\style_sub-menu.css" />
+    <Content Include="Update_Ass2_08Nov2015\css\style_sub-menu_index.css" />
+    <Content Include="Update_Ass2_08Nov2015\images\arrows.png" />
+    <Content Include="Update_Ass2_08Nov2015\images\background.png" />
+    <Content Include="Update_Ass2_08Nov2015\images\bg.png" />
+    <Content Include="Update_Ass2_08Nov2015\images\buy.png" />
+    <Content Include="Update_Ass2_08Nov2015\images\fb.png" />
+    <Content Include="Update_Ass2_08Nov2015\images\find.png" />
+    <Content Include="Update_Ass2_08Nov2015\images\gg.png" />
+    <Content Include="Update_Ass2_08Nov2015\images\help.png" />
+    <Content Include="Update_Ass2_08Nov2015\images\home.png" />
+    <Content Include="Update_Ass2_08Nov2015\images\iphone6.png" />
+    <Content Include="Update_Ass2_08Nov2015\images\logo.png" />
+    <Content Include="Update_Ass2_08Nov2015\images\lumia.png" />
+    <Content Include="Update_Ass2_08Nov2015\images\lumia_950.png" />
+    <Content Include="Update_Ass2_08Nov2015\images\mail.png" />
+    <Content Include="Update_Ass2_08Nov2015\images\photos.png" />
+    <Content Include="Update_Ass2_08Nov2015\images\samsung_galaxy_s6_5.png" />
+    <Content Include="Update_Ass2_08Nov2015\images\tw.png" />
+    <Content Include="Update_Ass2_08Nov2015\images\user.png" />
+    <Content Include="Update_Ass2_08Nov2015\images\zenfone.png" />
+    <Content Include="images\imageLanh\logo.psd" />
+    <Content Include="font\BebasNeue-webfont.ttf" />
+    <Content Include="font\menulis.ttf" />
+    <EntityDeploy Include="Models\AssignmentEC_Model.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>AssignmentEC_Model.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\AssignmentEC_Model.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>AssignmentEC_Model.edmx</DependentUpon>
+      <LastGenOutput>AssignmentEC_Model.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\AssignmentEC_Model.edmx.diagram">
+      <DependentUpon>AssignmentEC_Model.edmx</DependentUpon>
+    </Content>
+    <Content Include="Models\AssignmentEC_Model.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>AssignmentEC_Model.edmx</DependentUpon>
+      <LastGenOutput>AssignmentEC_Model.cs</LastGenOutput>
+    </Content>
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\WebForms\DetailsView.js" />
+    <Content Include="Scripts\WebForms\Focus.js" />
+    <Content Include="Scripts\WebForms\GridView.js" />
+    <Content Include="Scripts\WebForms\Menu.js" />
+    <Content Include="Scripts\WebForms\MenuStandards.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjax.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxApplicationServices.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxComponentModel.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxCore.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxGlobalization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxHistory.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxNetwork.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxSerialization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxTimer.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebForms.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebServices.js" />
+    <Content Include="Scripts\WebForms\SmartNav.js" />
+    <Content Include="Scripts\WebForms\TreeView.js" />
+    <Content Include="Scripts\WebForms\WebForms.js" />
+    <Content Include="Scripts\WebForms\WebParts.js" />
+    <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\style2.css" />
+    <Content Include="ViewSwitcher.ascx" />
+    <Content Include="Web.config" />
+    <Content Include="Bundle.config" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Update_Ass2_08Nov2015\font\BebasNeue-webfont.ttf" />
+    <Content Include="Update_Ass2_08Nov2015\font\menulis.ttf" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="CartHistory.aspx.cs">
+      <DependentUpon>CartHistory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CartHistory.aspx.designer.cs">
+      <DependentUpon>CartHistory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerInformation.aspx.cs">
+      <DependentUpon>CustomerInformation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomerInformation.aspx.designer.cs">
+      <DependentUpon>CustomerInformation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DetailProduct.aspx.cs">
+      <DependentUpon>DetailProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DetailProduct.aspx.designer.cs">
+      <DependentUpon>DetailProduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Detail\DetailProduct.aspx.cs">
+      <DependentUpon>DetailProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Detail\DetailProduct.aspx.designer.cs">
+      <DependentUpon>DetailProduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AssignmentEC_Model.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AssignmentEC_Model.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AssignmentEC_Model.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AssignmentEC_Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AssignmentEC_Model.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AssignmentEC_Model.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Cart.cs">
+      <DependentUpon>AssignmentEC_Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CartItem.cs">
+      <DependentUpon>AssignmentEC_Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CartItemViewModel.cs" />
+    <Compile Include="Models\CartOnline.cs" />
+    <Compile Include="Models\CartViewModel.cs" />
+    <Compile Include="Models\Category.cs">
+      <DependentUpon>AssignmentEC_Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CategoryModel.cs" />
+    <Compile Include="Models\MD5.cs" />
+    <Compile Include="Models\MobileComparePrice.cs" />
+    <Compile Include="Models\MobilePhone.cs">
+      <DependentUpon>AssignmentEC_Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\NVPAPICaller.cs" />
+    <Compile Include="Models\ShoppingCart.cs" />
+    <Compile Include="Models\User.cs">
+      <DependentUpon>AssignmentEC_Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Product.aspx.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Product.aspx.designer.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shopping.aspx.cs">
+      <DependentUpon>Shopping.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shopping.aspx.designer.cs">
+      <DependentUpon>Shopping.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Startup.cs" />
+    <Compile Include="ThankYou.aspx.cs">
+      <DependentUpon>ThankYou.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ThankYou.aspx.designer.cs">
+      <DependentUpon>ThankYou.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewSwitcher.ascx.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewSwitcher.ascx.designer.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="xml\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3475</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:3475/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
