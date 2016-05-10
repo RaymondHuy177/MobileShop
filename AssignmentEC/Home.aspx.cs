@@ -33,7 +33,6 @@ namespace AssignmentEC
                         select mobile).Take(4);
             List<MobilePhone> mobileList = data.ToList();
             string html = "";
-            string a = "";
             foreach (MobilePhone mobile in mobileList)
             {
                 html += "<div class=\"view view-second\">";
